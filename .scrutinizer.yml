@@ -1,8 +1,7 @@
 build:
     environment:
         sdkman:
-            - gradle@4.2
-            - javagergerg
+            - java
             
     tests:
         override:
