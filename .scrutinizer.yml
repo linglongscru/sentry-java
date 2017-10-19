@@ -1,0 +1,10 @@
+build:
+    environment:
+        sdkman:
+            - gradle@4.2
+            - javagergerg
+            
+    tests:
+        override:
+            - gradle -v
+            - java -version
