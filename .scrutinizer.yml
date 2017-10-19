@@ -1,9 +1,0 @@
-build:
-    environment:
-        sdkman:
-            - java
-            
-    tests:
-        override:
-            - gradle -v
-            - java -version
